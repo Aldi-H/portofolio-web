@@ -1,21 +1,45 @@
+import { Link } from "react-router-dom";
+import profileImage from "../images/image.png";
+import codingImage from "../images/Programming-rafiki.png";
+
 const Home = () => {
   return (
-    <div>
-      <header className="bg-white shadow">
-        <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
-        </div>
-      </header>
-      <main>
-        <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-          {/* <!-- Replace with your content --> */}
-          <div className="px-4 py-6 sm:px-0">
-            <div className="border-4 border-dashed border-gray-200 rounded-lg h-96"></div>
+    <section id="about">
+      <div className="container mx-auto flex px-10 md:flex-row flex-col items-center">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex-col md:items-start md:text-left mb-14 md:mb-0 items-center text-center">
+          <h1 className="title-font sm:text-3xl text-2xl mb-4 font-medium text-white">
+            Hi, I'm Aldi Himawan!
+          </h1>
+          <p className="mb-8 leading-relaxed">
+            Saya merupakan mahasiswa aktif di Universitas Brawijaya di Jurusan
+            Teknologi Informasi yang sedang menempuh semester 5 pada saat ini
+            yang memiliki keinginan dan semangat tinggi pada bidang front-end
+            dan UI/UX
+          </p>
+          <div className="flex justify">
+            <Link
+              to="/contact"
+              className="transition ease-in-out delay-150 inline-flex text-white bg-green-600 border-0 py-2 px-6 focus:outline-none hover:-translate-y-1 hover:scale-110 hover:bg-green-700 rounded text-lg font-semibold duration-300"
+            >
+              Contact Me
+            </Link>
+            <Link
+              to="/projects"
+              className="ml-4 transition ease-in-out delay-150 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 hover:text-white rounded text-lg font-semibold duration-300"
+            >
+              See My Past Work
+            </Link>
           </div>
-          {/* <!-- /End replace --> */}
         </div>
-      </main>
-    </div>
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <img
+            className="object-cover object-center rounded"
+            src={codingImage}
+            alt="picture by storyset.com"
+          />
+        </div>
+      </div>
+    </section>
   );
 };
 

@@ -2,32 +2,26 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Project from "./components/Projects";
-import About from "./components/About";
 import Contact from "./components/Contact";
 /* import "./App.css"; */
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <main className="text-gray-400 bg-gray-900 body-font">
         <Navbar />
-        <div className="content">
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/projects">
-              <Project />
-            </Route>
-            <Route path="/contact">
-              <Contact />
-            </Route>
-          </Switch>
-        </div>
-      </div>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/projects">
+            <Project />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+        </Switch>
+      </main>
     </Router>
   );
 }
