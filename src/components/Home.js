@@ -5,7 +5,7 @@ import codingImage from "../images/Programming-rafiki.png";
 const Home = () => {
   return (
     <section id="about">
-      <div className="container mx-auto flex px-10 md:flex-row flex-col items-center">
+      <div className="container mx-auto flex px-10 py-[2.71rem] md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex-col md:items-start md:text-left mb-14 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-3xl text-2xl mb-4 font-medium text-white">
             Hi, I'm Aldi Himawan!
