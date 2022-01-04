@@ -4,7 +4,7 @@ import { skills } from "../data";
 const Skills = () => {
   return (
     <section id="skills">
-      <div className="container px-5 py-10 my-auto mx-auto">
+      <div className="container px-5 py-20 my-auto mx-auto">
         <div className="text-center mb-10">
           <ChipIcon className="w-10 inline-block mb-4" />
           <h1 className="text-3xl sm:text-4xl font-medium title-font text-white mb-4">
