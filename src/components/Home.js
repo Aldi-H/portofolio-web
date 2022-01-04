@@ -16,19 +16,19 @@ const Home = () => {
             yang memiliki keinginan dan semangat tinggi pada bidang front-end
             dan UI/UX
           </p>
-          <div className="flex justify">
-            <Link
-              to="/contact"
+          <div className="flex justify-center md:justify-start">
+            <a
+              href="#contact"
               className="transition ease-in-out delay-150 inline-flex text-white bg-green-600 border-0 py-2 px-6 focus:outline-none hover:-translate-y-1 hover:scale-110 hover:bg-green-700 rounded text-lg font-semibold duration-300"
             >
               Contact Me
-            </Link>
-            <Link
-              to="/projects"
+            </a>
+            <a
+              href="#projects"
               className="ml-4 transition ease-in-out delay-150 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 hover:text-white rounded text-lg font-semibold duration-300"
             >
               See My Past Work
-            </Link>
+            </a>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
