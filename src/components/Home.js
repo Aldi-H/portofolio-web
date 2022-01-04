@@ -9,7 +9,7 @@ const Home = () => {
           <h1 className="title-font sm:text-3xl text-2xl mb-4 font-medium text-white">
             Hi, I'm Aldi Himawan!
           </h1>
-          <p className="mb-8 leading-relaxed">
+          <p className="text-lg font-medium mb-8 leading-relaxed">
             Saya merupakan mahasiswa aktif di Universitas Brawijaya di Jurusan
             Teknologi Informasi yang sedang menempuh semester 5 pada saat ini
             yang memiliki keinginan dan semangat tinggi pada bidang front-end

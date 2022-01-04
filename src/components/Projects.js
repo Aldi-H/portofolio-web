@@ -10,7 +10,7 @@ const Projects = () => {
           <h1 className="text-3xl sm:text-4xl font-medium title-font mb-4 text-white">
             Apps I've Built
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base font-medium">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-lg font-medium">
             Berikut merupakan beberapa app yang saya buat dengan tujuan belajar
             technologi yang terdapat pada app tersebut saat membangun nya
           </p>

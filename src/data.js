@@ -1,11 +1,11 @@
 export const skills = [
   "React.js",
-  "Html",
-  "CSS",
-  "Tailwindcss",
+  "NodeJS",
   "ExpressJS",
   "JavaScript",
-  "Node.JS",
+  "Tailwindcss",
+  "Html",
+  "CSS",
 ];
 
 export const projects = [

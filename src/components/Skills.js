@@ -10,7 +10,7 @@ const Skills = () => {
           <h1 className="text-3xl sm:text-4xl font-medium title-font text-white mb-4">
             Skills &amp; Technologies
           </h1>
-          <p className="text-base font-medium leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          <p className="text-lg font-medium leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             Berikut merupakan skill dan teknologi yang sedang saya pelajari
             lebih lanjut untuk menjadi seorang front-end developer
           </p>
