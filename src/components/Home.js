@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import profileImage from "../images/image.png";
 import codingImage from "../images/Programming-rafiki.png";
 
 const Home = () => {
