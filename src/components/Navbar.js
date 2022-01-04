@@ -8,13 +8,25 @@ const Navbar = () => {
           </a>
         </a>
         <nav className="flex flex-wrap items-center text-base justify-center md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700">
-          <a href="#projects" className="mr-5 hover:text-white font-medium">
+          <a
+            href="#projects"
+            className="text-lg mr-5 hover:text-white font-medium"
+          >
             Projects
           </a>
-          <a href="#skills" className="mr-5 hover:text-white font-medium">
+          <a
+            href="#skills"
+            className="text-lg mr-5 hover:text-white font-medium"
+          >
             Skills
           </a>
         </nav>
+        <a
+          href="#contact"
+          className="text-lg mr-5 hover:text-white font-medium"
+        >
+          Contact Me
+        </a>
       </div>
     </header>
   );

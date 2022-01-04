@@ -2,7 +2,7 @@ import { SocialMedia } from "../data";
 
 const Contact = () => {
   return (
-    <footer className="text-center text-white bg-gray-800">
+    <footer id="contact" className="text-center text-white bg-gray-800">
       <div className="container px-4 pt-4">
         <div className="flex flex-wrap justify-center pb-4">
           {SocialMedia.map((socialMedia) => (
